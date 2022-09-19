@@ -1,0 +1,20 @@
+// Color settings is defined in tailwind config.
+
+// Color combination (in color wheel):
+//  - monochromatic: one color
+//    - shades of main color is the only color
+//  - analogous: one color, plus at least 2 complimentary colors
+//    - main color is the center color, with 2 complimentary colors (L1, R1)
+//    - the clock-wise order is: L1, main, R1
+//    - L1 is in the counter-clockwise direction (L2 in hour < L1 in hour < main in hour)
+//    - R1 is in the clockwise direction (R2 in hour > R1 in hour > main in hour)
+//  - triadic: 3 clashing colors
+//    - main color is one of the color, with two other clashing colors (A, B)
+//    - the clock-wise order is: A, main, B
+//  - tetradic: 4 clashing colors
+//    - main color is one of the color,
+//      with two clashing colors on the side (A, B), and 1 in the opposite side (O)
+//    - the clock-wise order is: A, main, B, O
+//  - split complimentary: 2 complimentary color as main, 1 clashing color at the opposite side.
+//    - the clock-wise order is: main A, main B, O
+//    - need to make sure the complimentary colors still bear a resemblance to the main color
