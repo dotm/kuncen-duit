@@ -3,7 +3,6 @@
 - continue user.me
 - Use sqlc? Use sqlx?
 - add event sourcing especially to user.signup
-- Catch panic or error.
 - Continue implement user.me, user.signout
 - Connect with frontend
 - Deploy to Lambda
@@ -11,7 +10,6 @@
 - Use unique on stream id and nonce to avoid racing
 - Retry whole function on race
 - Differentiate between individual user and company user?
-- Encapsulate db acquire connection and return close function.
 - Use zerolog Errs instead of Err to log errors (?)
 - Add optional send to sns in logger instance.
 - If not local, send to dynamodb and sns instead of standard error.
